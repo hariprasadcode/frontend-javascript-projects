@@ -1,0 +1,27 @@
+What is Text to Speech?
+
+Text to Speech (TTS) is a technology that converts written text into spoken audio. 
+It allows computers and web applications to read text aloud using synthetic voices. 
+This technology is commonly used in accessibility tools, virtual assistants, learning applications, and productivity software.
+
+How It Works
+
+The application uses the browser’s built-in Web Speech API to convert text into speech.
+The user enters text into the input field.
+Available system voices are dynamically loaded.
+The user selects a preferred voice.
+The text is converted into speech using the SpeechSynthesisUtterance interface.
+The speech can be controlled using pause and resume functionality.
+The browser processes the text and generates audio output using the selected voice.
+
+Technologies Used
+
+HTML5 – Structure of the application
+CSS3 – Styling and responsive design
+JavaScript (ES6) – Logic and interactivity
+Web Speech API – Speech synthesis functionality
+DOM Manipulation & Event Handling
+
+
+The Text to Speech project demonstrates practical implementation of JavaScript with real browser APIs. 
+It highlights skills in frontend development, user interaction handling, and integrating native browser capabilities to build interactive web applications.
