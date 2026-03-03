@@ -1,0 +1,28 @@
+Image to Text Converter :
+A simple web application that extracts text from images using OCR (Optical Character Recognition) with Tesseract.js
+
+Features :
+
+Upload any image (PNG, JPG, JPEG).
+Preview the selected image before conversion.
+Extract text directly from the image.
+Clean and responsive user interface.
+
+How It Works :
+
+Upload an image using the file input.
+The app displays a preview of the image.
+Click Convert Image to Text to extract the text.
+The extracted text appears in the textarea below.
+
+Technologies Used :
+
+HTML5 & CSS3 – Structure and styling.
+JavaScript – Logic for file handling and OCR.
+Tesseract.js – OCR engine for extracting text from images.
+
+Usage :
+
+Clone or download the repository.
+Open awt2.html in your browser.
+Upload an image and click the convert button.
