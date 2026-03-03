@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image to Text Converter</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🖼️ Image to Text Converter</h1>
+
+    <!-- File input to upload image -->
+    <input type="file" id="imageInput" accept="image/*" />
+
+    <!-- Area to display selected image -->
+    <div id="imagePreview"></div>
+
+    <!-- Button to trigger OCR process -->
+    <button onclick="convertImageToText()">Convert Image to Text</button>
+
+    <!-- Area to display the extracted text -->
+    <textarea id="outputText" placeholder="The extracted text will appear here..." readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
